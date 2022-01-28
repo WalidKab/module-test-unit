@@ -7,5 +7,5 @@ test('adds 1 + 2 to equal 3', () => {
 });
 
 test('is number', () => {
-    expect(sum("a", "hgrfue")).toBe("You must provide 2 numbers!")
+    expect(sum(1, "hgrfue")).toBe("You must provide 2 numbers!")
 });

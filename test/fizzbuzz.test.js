@@ -1,5 +1,4 @@
 import {fizzBuzz} from "../src/fizzbuzz";
-import {multiply} from "../src/multiply";
 
 describe("fizzBuzz", function () {
 
@@ -21,5 +20,10 @@ describe("fizzBuzz", function () {
     test('should return buzz on multiples of 15', () => {
         expect(fizzBuzz(15)).toBe('FizzBuzz');
         expect(fizzBuzz(30)).toBe('FizzBuzz');
+    });
+
+    test('should return n', () => {
+        expect(fizzBuzz(2)).toBe(2);
+        expect(fizzBuzz(64)).toBe(64);
     });
 })

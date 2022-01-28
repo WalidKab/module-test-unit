@@ -16,4 +16,7 @@ export function fizzBuzz(n) {
         return "Buzz";
     }
 
+    else{
+        return n;
+    }
 }
